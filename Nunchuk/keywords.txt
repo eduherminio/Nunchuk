@@ -2,7 +2,7 @@
 
 # Datatypes (KEYWORD1)
 
-Nunchuk 	KEYWORD1	Nunchuk 
+Nunchuk 	KEYWORD1
 Wire		KEYWORD1	Wire
 
 # Methods and Functions (KEYWORD2)
