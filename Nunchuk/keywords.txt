@@ -2,20 +2,20 @@
 
 # Datatypes (KEYWORD1)
 
-Nunchuk 	KEYWORD1
-Wire		KEYWORD1	Wire
+Nunchuk	KEYWORD1
+Wire	KEYWORD1	Wire
 
 # Methods and Functions (KEYWORD2)
 
-init				KEYWORD2
-_sendByte			KEYWORD2
-update				KEYWORD2
-begin				KEYWORD2
-requestFrom			KEYWORD2
-available			KEYWORD2
+init	KEYWORD2
+_sendByte	KEYWORD2
+update	KEYWORD2
+begin	KEYWORD2
+requestFrom	KEYWORD2
+available	KEYWORD2
 beginTransmission	KEYWORD2
-endTransmission		KEYWORD2
-write				KEYWORD2
-read				KEYWORD2
+endTransmission	KEYWORD2
+write	KEYWORD2
+read	KEYWORD2
 
 
