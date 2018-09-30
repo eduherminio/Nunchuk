@@ -1,4 +1,4 @@
-/*************************************Nunchucky**********************************
+/*************************************Nunchuky**********************************
  * 
  * 
  *  **********************************Autoria************************************
@@ -10,12 +10,12 @@
  *  *****************************************************************************
  *  
  *  ******************************Descripción:*****************************
- *  Sketch que permite controlar un motor y servomotor con un Nunchuck 
+ *  Sketch que permite controlar un motor y servomotor con un Nunchuk 
  *  Más concretamente, realiza las siguientes funciones:
- *  - Muetra por pantalla los valores recibidos del Nunchuck
+ *  - Muestra por pantalla los valores recibidos del Nunchuk
  *  - Controla la velocidad y sentido de giro del motor de DC 
  *  a partir del valor de la variable accelY, que representa
- *  la inclinación del Nunchuck en ese eje.
+ *  la inclinación del Nunchuk en ese eje.
  *  - Controla el posicionamiento del servomotor a partir del
  *  valor de la variable accelX, que representa la inclianción
  *  del Nunchuk en ese eje.
@@ -46,7 +46,7 @@ int direccion=0;      // Variable que almacena accelX
 
 void monitorSerie();
 /*  Muestra los valores de las variables que definen la orientación
- *  del Nunchuck por el puerto serie.
+ *  del Nunchuk por el puerto serie.
  */
  
 void controlServo();
@@ -72,7 +72,7 @@ void setup()
 void loop()
 {
   our_nunchuk.update();   // Refresca el estado de las variables
-                          // del Nunchuck
+                          // del Nunchuk
   monitorSerie();   // Muestra todos esos valores
   
   controlServo();   // Ajusta la posición del servo
